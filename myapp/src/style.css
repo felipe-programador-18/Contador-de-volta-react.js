@@ -1,0 +1,17 @@
+
+@import url('//fonts.googleapis.com/css2?family=Estonia&display=swap');
+
+/* selection all font!! */
+*{
+    font-family: 'Estonia', cursive;
+    font-size: 40px;
+    text-align: center;
+    background-color:#F7574D;
+    color:black;
+}
+
+.voltas{
+    font-size: 288px;
+    font-weight: bold;
+}
+

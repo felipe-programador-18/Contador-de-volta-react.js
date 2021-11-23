@@ -37,7 +37,9 @@ function App() {
     setNumerovol(NumerVolta+1) 
   }
   const decrement = () =>{
+    if(NumerVolta >0){
     setNumerovol(NumerVolta-1)
+    }
   }
   
   const reset = () =>{
@@ -56,7 +58,7 @@ function App() {
     <MostraTime tempo={Math.round(tempo/NumerVolta)}/> 
   }
 
-  <Button onClick={ToggleRun} text='Iniciar' />
+  <Button onClick={ToggleRun} text={running ? 'Pausar':'Iniciar'} />
   <Button onClick={reset} text='Reiniciar'/>
   
      

@@ -48,8 +48,8 @@ function App() {
   return (
     <div>
    <MostrarVolta voltas= {NumerVolta}/>
-   <Button text='+' onClick={increment} />
-   <Button text='-' onClick={decrement} />
+   <Button text='+' className='big' onClick={increment} />
+   <Button text='-' className='morebig' onClick={decrement} />
 
    {
      NumerVolta > 0 &&

@@ -10,8 +10,26 @@
     color:black;
 }
 
+
+p{
+ font-weight: bold;   
+}
+
 .voltas{
     font-size: 288px;
     font-weight: bold;
 }
 
+button{
+    font-weight: bold;
+    padding: 22px;
+    margin: 8px;
+}
+
+.big{
+  padding-left: 40px;
+}
+
+.morebig{
+padding-left: 40px;
+}

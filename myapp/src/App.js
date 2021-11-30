@@ -61,10 +61,12 @@ function App() {
   <Button onClick={ToggleRun} text={running ? 'Pausar':'Iniciar'} />
   <Button onClick={reset} text='Reiniciar'/>
   
-     
+  
+  
+
     </div>
 
-
+    
 
 
   )
